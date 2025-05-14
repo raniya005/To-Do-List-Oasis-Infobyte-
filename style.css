@@ -1,0 +1,45 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: plum;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+.header{
+    color:purple;
+    font-size: 60px;
+    font-style: italic;
+}
+ .container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+ }
+ #taskInput{
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid white;
+    max-width: 600px;
+ }
+ .container button{
+    padding: 10px 10px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+ }
+.container button:hover{
+    background-color: palegreen;
+}
+.completed{
+    text-decoration: line-through;
+    color:darkmagenta;
+}

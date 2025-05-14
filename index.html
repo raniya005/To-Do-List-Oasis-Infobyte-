@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="header">TO-DO</h1>
+    <div class="container">
+        <input type="text" id="taskInput" placeholder="Add task"/>
+        <button onclick="addTask()">+</button>
+    </div>
+    <h2>Pending Tasks</h2>
+    <ul id="pendingTasks" class="task-list"></ul>
+    <h2>Completed Tasks</h2>
+    <ul id="completedTasks" class="task-list"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
