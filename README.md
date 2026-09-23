@@ -1,1 +1,1 @@
-A login authentication system using HTML, CSS, and JavaScript. This system includes: User Registration, Login & Authentication, Password Reset, Personalized User Dashboard.
+A simple yet functional To-Do List web app using HTML, CSS, and JavaScript. This app allows users to add, edit, complete, and delete tasks. I also implemented features like task completion tracking and separating completed tasks from pending ones.
